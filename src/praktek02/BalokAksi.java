@@ -9,6 +9,7 @@ public class BalokAksi {
         
         r1.cetakInfo();
         System.out.println("volume balok ="+ r1.hitungVolume ());
+        r1.cetakVolume();
         
     }
            
