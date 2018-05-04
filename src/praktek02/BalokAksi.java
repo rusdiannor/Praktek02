@@ -6,6 +6,9 @@ public class BalokAksi {
         r1. panjang = 4 ;
         r1. lebar  = 5;
         r1. tinggi  = 3;
+        
+        r1.cetakInfo();
+        
     }
            
 }
