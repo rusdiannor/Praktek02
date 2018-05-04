@@ -3,6 +3,12 @@ public class Balok {
   double panjang ;
   double lebar ;
   double tinggi ;
+
+    public Balok() {
+        panjang=5;
+        lebar=6;
+        tinggi=4;
+    }
   
     void cetakInfo () {
        System.out.println("================");
@@ -18,4 +24,9 @@ public class Balok {
         volume =panjang*lebar*tinggi;
         return volume;
      }
+    
+    
+    void cetakVolume(){
+        System.out.println("Volumenya adalah :" +hitungVolume());
+    }
 }
