@@ -13,4 +13,9 @@ public class Balok {
        
 
 }
+    double hitungVolume(){
+        double volume ;
+        volume =panjang*lebar*tinggi;
+        return volume;
+     }
 }
